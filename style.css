@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body,
+.container,
+.cronometro,
+.texto,
+h1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+
+.title{
+    width: 50%;
+    height: 15%;
+}
+
+h1{
+    margin-bottom: 5rem;
+    font-size: 10rem;
+    font-family:sans-serif;
+    letter-spacing: 1rem;
+    color: crimson;
+    text-shadow: 0 0 0.5rem black;
+}
+
+.container{
+    height: 30%;
+    width: 50%;
+    background-color: crimson;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 3rem;
+}
+
+.cronometro{
+    width: 80%;
+    height: 50%;
+}
+
+.texto{
+    width: 100%;
+    height: 100%;
+    font-size: 5rem;
+    color: pink;
+    font-family: fantasy;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+    
+}
+button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    border-radius: 3rem;
+    font-family: fantasy;
+    color: rgb(255, 231, 235);
+    background-color:crimson;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 0 1rem black;
+}
+
+button:hover{
+    background-color: palevioletred;
+    color: black;
+}
